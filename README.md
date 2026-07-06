@@ -281,11 +281,18 @@ LEGISIGHT-A-COGNITIVE-LEGAL-INSIGHT-ENGINE/
 
 # 📸 Application Preview
 
-## 🏠 Dashboard
-
-![](Screenshots/1.jpg)
-
----
+<img width="1050" height="612" alt="Image" src="https://github.com/user-attachments/assets/47c20498-f962-4cd6-98e7-382d5fc18193" />
+<img width="1047" height="618" alt="Image" src="https://github.com/user-attachments/assets/1e5a77df-f919-403a-969a-52aadaeff8c8" />
+<img width="1035" height="607" alt="Image" src="https://github.com/user-attachments/assets/5e0da8f1-2240-4e14-b59d-40a57974f861" />
+<img width="932" height="723" alt="Image" src="https://github.com/user-attachments/assets/b682a308-fa13-4284-9bf0-72583004d970" />
+<img width="860" height="737" alt="Image" src="https://github.com/user-attachments/assets/08d6827f-c95a-42bc-ade4-6839a0492370" />
+<img width="862" height="562" alt="Image" src="https://github.com/user-attachments/assets/946f3e23-325b-4ac6-a1ae-6798c8fca2b5" />
+<img width="782" height="722" alt="Image" src="https://github.com/user-attachments/assets/890874d8-63a2-4ce3-b8fa-4b304c2cac91" />
+<img width="817" height="552" alt="Image" src="https://github.com/user-attachments/assets/9fcc6330-cb36-4c01-bf28-a1b0ab2f9e9c" />
+<img width="780" height="677" alt="Image" src="https://github.com/user-attachments/assets/fd87a858-7bc4-400c-b870-fdca0d71016c" />
+<img width="1018" height="718" alt="Image" src="https://github.com/user-attachments/assets/15eef2cd-810b-4fe4-adf4-55554dda59d5" />
+<img width="1037" height="761" alt="Image" src="https://github.com/user-attachments/assets/b487284a-1177-43d1-a3aa-b3919c7ab4f3" />
+<img width="987" height="740" alt="Image" src="https://github.com/user-attachments/assets/2161e554-38af-4670-8d5c-c05dda6e6874" />
 
 
 The screenshots above demonstrate LegiSight's complete legal intelligence workflow—from legal document upload and preprocessing to AI-powered summarization, semantic retrieval, legal classification, escalation prediction, deadline tracking, analytics, and structured legal insight generation.
@@ -456,11 +463,6 @@ This project was developed using the following open-source technologies and fram
 
 ---
 
-# 📜 License
-
-This project is intended for educational, research, and portfolio purposes.
-
----
 
 <div align="center">
 
