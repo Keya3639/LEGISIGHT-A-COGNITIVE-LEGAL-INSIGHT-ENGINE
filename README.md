@@ -1,142 +1,481 @@
-# LEGISIGHT-A-COGNITIVE-LEGAL-INSIGHT-ENGINE
+<!-- ============================================ -->
+<!--                LegiSight Banner              -->
+<!-- ============================================ -->
 
-The **Legisight – Cognitive Legal Insight Engine** is an AI-powered legal analytics platform designed to assist users in understanding, analyzing, and interpreting legal information efficiently.
+<div align="center">
 
-Instead of manually navigating complex legal documents, this system leverages machine learning and natural language processing (NLP) to extract insights, summarize legal content, and provide intelligent recommendations, making legal research faster and more accessible.
+# ⚖️ LegiSight
 
-This project is highly valuable for law students, legal professionals, researchers, startups, and developers working on AI-driven knowledge systems.
-## Overview
+# Cognitive Legal Insight Engine
 
-The system is built using NLP models and machine learning techniques to process legal text data and generate meaningful insights. It is deployed through an interactive interface that allows users to input legal queries or upload documents.
+## Decode Law. Derive Intelligence. Decide with Confidence. 🧠
 
-It supports:
+</div>
 
-- Legal document summarization
-- Legal query understanding and response generation
-- Insight extraction from case laws and statutes
+---
 
-The application transforms raw legal data into structured, actionable intelligence, making it more than just a search tool—it acts as a cognitive legal assistant.
+<p align="center">
 
-## Tools and Technologies Used
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.28-red?style=for-the-badge&logo=streamlit&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Sentence Transformers](https://img.shields.io/badge/Sentence-Transformers-orange?style=for-the-badge&logo=huggingface&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-Computing-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![CPU Only](https://img.shields.io/badge/Compute-CPU_Only-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-- **Python:** Python: Core development language
-- **Streamlit / Web Framework:** User interface and interaction
-- **Natural Language Processing (NLP):** Text analysis and understanding
-- **Scikit-learn / NLP Models:** Classification and prediction tasks
-- **Pandas:** Data processing and structuring
-- **NumPy:** Numerical operations
-- **Transformers (Hugging Face):** Advanced language models for summarization and Q&A
-- **Matplotlib / Plotly:** Data visualization (if analytics included)
+</p>
 
-## Why These Tools Were Selected
+---
 
-- NLP models enable understanding of complex legal language
-- Transformers provide high-quality summarization and contextual responses
-- Streamlit allows quick deployment of AI applications
-- Pandas simplifies handling structured and unstructured legal datasets
-- Python ensures flexibility and scalability
-- Visualization tools help present insights clearly
+# 📖 Project Description
 
-Together, these tools create an intelligent system capable of simplifying legal information while maintaining accuracy and usability.
-Together, these tools enable a business-ready AI solution that balances predictive accuracy with interpretability.
+**LegiSight** is an AI-powered Cognitive Legal Insight Engine designed to transform complex legal documents into structured, actionable intelligence using Natural Language Processing (NLP), Machine Learning, Semantic Search, and Generative AI.
 
-## Features
+Instead of manually reviewing lengthy legal documents, users can upload legal case files or ask legal questions to receive intelligent summaries, semantic insights, legal classifications, deadline predictions, escalation analysis, and interactive visualizations.
 
-- Legal document summarization
-- Intelligent legal query answering
-- Keyword and entity extraction
-- Case law and statute insights
-- Upload and analyze legal documents (PDF/ ტექსტ)
-- Interactive user interface
-- Context-aware responses
-- Clean and user-friendly design
+LegiSight combines document understanding, contextual reasoning, legal analytics, and explainable AI into a unified platform, making legal research significantly faster, smarter, and more accessible.
 
-## How It Works
+Whether used by law students, legal professionals, researchers, startups, or legal-tech organizations, LegiSight simplifies legal intelligence through modern AI.
 
-🔹 Legal Query Processing
+---
 
-- User inputs a legal question or topic
-- System processes the query using NLP techniques
-- Model generates:
-  
-   - Relevant legal insights
-   - Contextual explanations
-   - Simplified interpretation of legal terms
+# ✨ Key Highlights
 
-🔹 Document Analysis
+- ⚖️ AI-Powered Legal Intelligence Engine
+- 📄 Automatic Legal Document Summarization
+- 💬 Intelligent Legal Question Answering
+- 🔍 Semantic Case Similarity Search
+- 🧠 Machine Learning-Based Legal Classification
+- 📈 Case Escalation Prediction
+- ⏰ Legal Deadline Tracking
+- 🔑 Named Entity & Keyword Extraction
+- 📊 Interactive Analytics Dashboard
+- 📂 PDF & Text Document Processing
+- 🤖 Explainable AI Recommendations
+- ⚡ CPU-Optimized Processing
 
-- User uploads a legal document
-- System performs:
+---
 
-  - Text extraction
-  - Summarization
-  - Key information identification
+# 🏗 System Architecture
 
-- Output includes:
+LegiSight follows a modular AI pipeline that converts raw legal documents into structured legal intelligence through document processing, NLP, semantic retrieval, machine learning, and explainable analytics.
 
-  - Concise summary
-  - Important clauses
-  - Highlighted legal entities
+```mermaid
+flowchart TD
 
-🔹 Insight Generation
-- Extracts patterns and relationships from legal data
-- Provides structured outputs for better understanding
-- Helps users make informed decisions based on legal context
+A["📄 Legal Document Upload"]
+B["💬 Legal Query"]
 
-## Advantages
+A --> C
+B --> C
 
-- Saves time in legal research
-- Simplifies complex legal language
-- Improves accessibility to legal knowledge
-- Enhances productivity for legal professionals
-- Scalable for large legal datasets
-- Useful for both technical and non-technical users
-  
-## Limitations
+C["🧠 AI Processing Engine"]
 
-- Accuracy depends on training data and model quality
-- May not fully capture jurisdiction-specific nuances
-- Complex legal interpretations may require expert validation
-- Not a replacement for professional legal advice
-- Limited understanding of highly ambiguous legal contexts
+C --> D["📄 Text Extraction"]
 
-## Real-Time Applications
+D --> E["🧹 NLP Preprocessing"]
 
-- Legal research assistance
-- Law firms: Case analysis and document review
-- Students: Study and understand legal concepts
-- Startups: Compliance and legal documentation support
-- Government/legal tech platforms
-- AI-based knowledge systems
+E --> F["📝 Document Summarization"]
 
-## Future Enhancements
+F --> G["🔍 Semantic Search"]
 
-- Integration with legal databases (case law APIs)
-- Multilingual legal support
-- Voice-based legal assistant
-- Explainable AI for legal reasoning
-- Real-time legal updates and alerts
-- Cloud deployment (AWS / Azure / GCP)
-- Advanced semantic search
-- Automated legal citation generation
+G --> H["🧠 Legal Classification"]
 
-## Conclusion
+H --> I["📈 Escalation Prediction"]
 
-The **Legisight – Cognitive Legal Insight Engine** demonstrates how AI and NLP can transform the legal domain by making information more accessible, understandable, and actionable.
+I --> J["⏰ Deadline Detection"]
 
-By combining intelligent text processing with an intuitive interface, this system bridges the gap between complex legal knowledge and everyday users. With further improvements, it has the potential to evolve into a powerful legal AI assistant for real-world applications.
+J --> K["📊 Analytics Dashboard"]
 
-## OUTPUT:
+K --> L["📁 Structured Legal Insights"]
+```
 
-<img width="1050" height="612" alt="Image" src="https://github.com/user-attachments/assets/b8d18c98-eff4-48f4-9811-b0ffeea466a9" />
-<img width="1047" height="618" alt="Image" src="https://github.com/user-attachments/assets/47e129ea-2588-4581-9f48-f7526c08f65b" />
-<img width="1035" height="607" alt="Image" src="https://github.com/user-attachments/assets/95609771-f3f0-4f76-83cb-29c0d360c449" />
-<img width="932" height="723" alt="Image" src="https://github.com/user-attachments/assets/3a2bee23-ee1b-40a2-a253-90106c7debb0" />
-<img width="860" height="737" alt="Image" src="https://github.com/user-attachments/assets/07b5b93e-1ef2-49be-a691-297c8250b208" />
-<img width="862" height="562" alt="Image" src="https://github.com/user-attachments/assets/ca8a73b4-44c7-4152-996d-53204e3ff903" />
-<img width="782" height="722" alt="Image" src="https://github.com/user-attachments/assets/533b554b-0dad-437a-a9ac-0c12840880df" />
-<img width="817" height="552" alt="Image" src="https://github.com/user-attachments/assets/c926b826-8d02-4535-a671-1cc45b9b72bf" />
-<img width="780" height="677" alt="Image" src="https://github.com/user-attachments/assets/1a480b13-9651-43f0-9139-e66410c5d905" />
-<img width="1018" height="718" alt="Image" src="https://github.com/user-attachments/assets/74c480ad-2077-4c37-ada3-365f5f7ff004" />
-<img width="1037" height="761" alt="Image" src="https://github.com/user-attachments/assets/62827671-1e95-4f44-8970-2c5252c86c97" />
-<img width="987" height="740" alt="Image" src="https://github.com/user-attachments/assets/dc52cbca-59c1-4a60-aaa7-ce2bd105f5b6" />
+---
+
+### 🔄 Application Workflow
+
+1. Upload a legal document or enter a legal query.
+2. Extract text from PDF or TXT documents.
+3. Clean and preprocess legal content.
+4. Generate AI-powered document summaries.
+5. Perform semantic similarity search.
+6. Classify legal cases using Machine Learning.
+7. Predict escalation probability.
+8. Detect important legal deadlines.
+9. Extract legal entities and keywords.
+10. Visualize insights using interactive dashboards.
+11. Generate structured legal intelligence for users.
+
+---
+
+# 📊 Feature Comparison
+
+| Feature | Traditional Legal Search | LegiSight |
+|:---|:---:|:---:|
+| Document Understanding | ❌ | ✅ AI Powered |
+| Legal Summarization | ❌ | ✅ NLP Based |
+| Semantic Search | Keyword Based | ✅ Meaning Based |
+| Legal Classification | Manual | ✅ Machine Learning |
+| Deadline Tracking | ❌ | ✅ Automated |
+| Escalation Prediction | ❌ | ✅ AI Powered |
+| Entity Recognition | ❌ | ✅ NLP |
+| Explainable Results | ❌ | ✅ Detailed Insights |
+| Interactive Dashboard | ❌ | ✅ Plotly Analytics |
+| Processing | Manual | ✅ CPU Optimized |
+
+---
+
+# ✨ Core Features
+
+## 📄 Intelligent Legal Document Summarization
+
+- Automatic document summarization
+- Context-aware legal understanding
+- Important clause extraction
+- Concise legal insights
+- Long document compression
+
+---
+
+## 🔍 Semantic Legal Search
+
+- Embedding-based similarity search
+- Context-aware legal retrieval
+- Relevant case recommendations
+- Intelligent legal matching
+- Fast semantic lookup
+
+---
+
+## 🧠 Machine Learning Legal Classification
+
+- Automatic legal category prediction
+- Multi-class case classification
+- Confidence score generation
+- Trained Scikit-Learn models
+- Explainable predictions
+
+---
+
+## 📈 Case Escalation Prediction
+
+- Predicts escalation probability
+- Identifies high-risk legal cases
+- Early warning generation
+- ML-based prediction engine
+
+---
+
+## ⏰ Legal Deadline Tracking
+
+- Deadline extraction
+- Timeline monitoring
+- Important date identification
+- Legal schedule management
+
+---
+
+## 🔑 Keyword & Entity Extraction
+
+- Person names
+- Organizations
+- Legal Acts
+- Sections
+- Locations
+- Important legal keywords
+
+---
+
+## 📊 Interactive Legal Analytics
+
+- Case distribution
+- Escalation statistics
+- Legal trends
+- Dashboard visualization
+- Plotly interactive charts
+
+---
+# 🛠 Technology Stack
+
+| Layer | Technology |
+|:---|:---|
+| Programming Language | Python 3.11 |
+| User Interface | Streamlit |
+| Natural Language Processing | Hugging Face Transformers |
+| Text Embeddings | Sentence Transformers |
+| Machine Learning | Scikit-Learn |
+| Data Processing | Pandas + NumPy |
+| Data Visualization | Plotly + Matplotlib |
+| Document Processing | PyPDF2 / PDFPlumber |
+| Database | PostgreSQL |
+| Similarity Search | Cosine Similarity |
+| PDF Reports | FPDF |
+| Deployment | Streamlit Cloud |
+| Version Control | Git & GitHub |
+
+---
+
+# 📂 Project Structure
+
+```text
+LEGISIGHT-A-COGNITIVE-LEGAL-INSIGHT-ENGINE/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   ├── cleaned_legal_cases.csv
+│   └── legal_cases_1000.csv
+│
+├── models/
+│   ├── embeddings.pkl
+│   ├── escalation_model.pkl
+│   └── tfidf_vectorizer.pkl
+│
+├── legisight_cases/
+│   ├── case1_murder.txt
+│   ├── case2_assault.txt
+│   ├── case3_domestic.txt
+│   ├── case4_fraud.txt
+│   ├── case5_cybercrime.txt
+│   ├── case6_property.txt
+│   ├── case7_contract.txt
+│   ├── case8_harassment.txt
+│   ├── case9_corruption.txt
+│   └── case10_theft.txt
+│
+├── utils/
+│   ├── summarizer.py
+│   ├── search.py
+│   ├── deadline.py
+│   ├── prediction.py
+│   └── visualization.py
+│
+├── diagrams/
+│   ├── SYSTEM ARCHITECTURE.png
+│   ├── ERD.png
+│   ├── FLOWCHART.png
+│   ├── UML.png
+│   ├── USE CASE.png
+│   └── SEQUENCE.png
+│
+├── notebooks/
+│   ├── data_preprocessing.ipynb
+│   ├── ml_model.ipynb
+│   └── embeddings.ipynb
+│
+└── Screenshots/
+    ├── 1.jpg
+    ├── 2.jpg
+    ├── 3.jpg
+    ├── ...
+    └── 12.jpg
+```
+
+---
+
+# 📸 Application Preview
+
+## 🏠 Dashboard
+
+![](Screenshots/1.jpg)
+
+---
+
+
+The screenshots above demonstrate LegiSight's complete legal intelligence workflow—from legal document upload and preprocessing to AI-powered summarization, semantic retrieval, legal classification, escalation prediction, deadline tracking, analytics, and structured legal insight generation.
+
+
+
+# ⚙ Installation
+
+## Prerequisites
+
+- Python 3.11+
+- pip
+
+---
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Keya3639/LEGISIGHT-A-COGNITIVE-LEGAL-INSIGHT-ENGINE.git
+
+cd LEGISIGHT-A-COGNITIVE-LEGAL-INSIGHT-ENGINE
+```
+
+---
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### Run Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+### Alternative Execution
+
+```bash
+python app.py
+```
+
+---
+
+# 🚀 Demo Workflow
+
+| Step | Action |
+|:--:|:---|
+| 1 | Upload Legal Document (PDF/TXT) |
+| 2 | Ask a Legal Question |
+| 3 | AI Processes Document |
+| 4 | View Document Summary |
+| 5 | Perform Semantic Search |
+| 6 | Predict Legal Category |
+| 7 | Detect Escalation Risk |
+| 8 | Track Important Deadlines |
+| 9 | Explore Interactive Analytics |
+| 10 | Export Structured Legal Insights |
+
+---
+# 🌟 Why LegiSight?
+
+Unlike conventional legal information systems that rely primarily on keyword matching and manual document review, **LegiSight** leverages Artificial Intelligence, Natural Language Processing, and Machine Learning to understand legal documents semantically and transform them into actionable legal intelligence.
+
+LegiSight enables users to summarize lengthy legal documents, discover similar cases, classify legal matters, predict escalation risks, track important legal deadlines, extract legal entities, and visualize legal insights—all within a single AI-powered platform.
+
+Whether you are a legal professional, law student, researcher, startup, or legal-tech enthusiast, LegiSight simplifies complex legal analysis through intelligent automation.
+
+**LegiSight doesn't just search legal documents—it understands them.**
+
+---
+
+# 🔮 Future Enhancements
+
+| Phase | Features |
+|:---|:---|
+| Phase 1 | Conversational Legal AI Assistant |
+| Phase 2 | Multilingual Legal Intelligence |
+| Phase 3 | AI-Based Legal Citation Generator |
+| Phase 4 | Court Judgment Prediction |
+| Phase 5 | Integration with Government Legal Databases |
+| Phase 6 | Voice-Based Legal Query System |
+| Phase 7 | Explainable AI for Legal Reasoning |
+| Phase 8 | Legal Knowledge Graph |
+| Phase 9 | Cloud-Based Enterprise Deployment |
+
+---
+
+# 🚀 Potential Applications
+
+- ⚖️ Legal Research Automation
+- 🏛 Court Case Analysis
+- 📄 Legal Document Intelligence
+- 🧑‍⚖️ Law Firm Decision Support
+- 🎓 AI Learning Platform for Law Students
+- 🏢 Corporate Compliance Assistance
+- 🤖 Legal AI Assistants
+- 📊 Judicial Analytics
+- 📚 Legal Knowledge Management
+
+---
+
+# 🎯 Advantages
+
+- ⚡ Significantly reduces legal research time
+- 📖 Simplifies complex legal language
+- 🧠 AI-assisted legal reasoning
+- 📊 Interactive analytics dashboards
+- 🔍 Semantic case retrieval
+- 📈 Predictive legal intelligence
+- 📂 Supports PDF & Text documents
+- 💬 User-friendly Streamlit interface
+- 🖥 CPU-only execution (No GPU required)
+
+---
+
+# 🛣 Roadmap
+
+- ✅ AI-Powered Legal Summarization
+- ✅ Semantic Search Engine
+- ✅ Legal Case Classification
+- ✅ Deadline Tracking
+- ✅ Escalation Prediction
+- ✅ Interactive Analytics Dashboard
+- 🔄 Retrieval-Augmented Generation (RAG)
+- 🔄 Legal Chat Assistant
+- 🔄 Cloud Deployment
+- 🔄 REST API Support
+
+---
+
+# 👩‍💻 Developer
+
+## Keya Das
+
+**MCA (Artificial Intelligence & Data Science)**
+
+🌐 **GitHub**
+
+https://github.com/Keya3639
+
+📧 **Email**
+
+keyakarunamoydas@gmail.com
+
+---
+
+# 🙏 Acknowledgements
+
+This project was developed using the following open-source technologies and frameworks:
+
+- 🧠 Hugging Face Transformers
+- 🤗 Sentence Transformers
+- 🎨 Streamlit
+- 🐍 Python
+- 🐼 Pandas
+- 📊 NumPy
+- 🤖 Scikit-Learn
+- 📈 Plotly
+- 📑 PyPDF2
+- 📚 PDFPlumber
+- 🌍 Open Source Community
+
+---
+
+# 📜 License
+
+This project is intended for educational, research, and portfolio purposes.
+
+---
+
+<div align="center">
+
+# ⚖️ LegiSight
+
+### Decode Law. Derive Intelligence. Decide with Confidence. 🧠
+
+<br>
+
+**Built with ❤️ using**
+
+**Python • Streamlit • Hugging Face Transformers • Sentence Transformers • Pandas • NumPy • Scikit-Learn • Plotly**
+
+<br>
+
+⭐ If you found this project useful, consider giving it a **Star** on GitHub!
+
+</div>
