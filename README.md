@@ -478,6 +478,4 @@ This project was developed using the following open-source technologies and fram
 
 <br>
 
-⭐ If you found this project useful, consider giving it a **Star** on GitHub!
-
 </div>
